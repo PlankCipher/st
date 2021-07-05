@@ -141,7 +141,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_space,       normalMode,     {.i =  0} },
-	{ TERMMOD,              XK_U,           externalpipe,   {.v = openurlcmd} },
+	{ TERMMOD,              XK_L,           externalpipe,   {.v = openurlcmd} },
 };
 
 static KeySym mappedkeys[] = { -1 };
