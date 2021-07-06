@@ -124,6 +124,8 @@ static MouseShortcut mshortcuts[] = {
 #define MODIFIER ControlMask
 #define TERMMOD (ControlMask|ShiftMask)
 
+static char *openurlcmd[] = { "/bin/sh", "-c", "$HOME/.scripts/openurls.sh", "externalpipe", NULL };
+
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
@@ -139,6 +141,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_space,       normalMode,     {.i =  0} },
+	{ TERMMOD,              XK_L,           externalpipe,   {.v = openurlcmd} },
 };
 
 static KeySym mappedkeys[] = { -1 };
