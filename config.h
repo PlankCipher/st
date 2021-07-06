@@ -38,25 +38,25 @@ unsigned int tabspaces = 8;
 float alpha = 0.8;
 
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+  /* 8 normal colors */
+  [0] = "#1d2021",
+  [1] = "#cc241d", /* red     */
+  [2] = "#98971a", /* green   */
+  [3] = "#d79921", /* yellow  */
+  [4] = "#458588", /* blue    */
+  [5] = "#b16286", /* magenta */
+  [6] = "#689d6a", /* cyan    */
+  [7] = "#a89984", /* white   */
 
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+  /* 8 bright colors */
+  [8]  = "#928374", /* black   */
+  [9]  = "#fb4934", /* red     */
+  [10] = "#b8bb26", /* green   */
+  [11] = "#fabd2f", /* yellow  */
+  [12] = "#83a598", /* blue    */
+  [13] = "#d3869b", /* magenta */
+  [14] = "#8ec07c", /* cyan    */
+  [15] = "#ebdbb2", /* white   */
 
 	[255] = 0,
 
