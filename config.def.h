@@ -35,6 +35,8 @@ char *termname = "st-256color";
 
 unsigned int tabspaces = 8;
 
+float alpha = 0.8;
+
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
@@ -61,11 +63,13 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
+	"#0A121C",
+	"#f8f8f2"
 };
 
 
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
+unsigned int defaultbg = 258;
+unsigned int defaultfg = 259;
 
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
