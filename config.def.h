@@ -1,6 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-static char *font = "fontyfont:pixelsize=15.5:antialias=true:autohint=true";
+static char *font = "fontyfont:pixelsize=19:antialias=true:autohint=true";
 static int borderpx = 2;
 
 static char *shell = "/bin/sh";
