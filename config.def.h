@@ -64,14 +64,15 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"#1d2021",
-	"#f8f8f2"
+	"#f8f8f2",
+	"#ffffff"
 };
 
 
 unsigned int defaultbg = 258;
 unsigned int defaultfg = 259;
 
-static unsigned int defaultcs = 256;
+static unsigned int defaultcs = 260;
 static unsigned int defaultrcs = 257;
 
 unsigned int const currentBg = 237, buffSize = 2048;
