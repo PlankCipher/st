@@ -27,7 +27,7 @@ static double maxlatency = 33;
 
 static unsigned int blinktimeout = 800;
 
-static unsigned int cursorthickness = 2;
+static unsigned int cursorthickness = 1;
 
 static int bellvolume = 0;
 
